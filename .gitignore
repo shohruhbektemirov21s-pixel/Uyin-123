@@ -1,0 +1,37 @@
+# Unity generated directories
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/unity-import.log
+/UserSettings/
+/build/
+
+# Local tooling and temporary workspace data
+/.tooling/
+/.utmp/
+/.vs/
+/.vscode/
+
+# IDE-generated files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep only the distributable APK from Unity build output
+/Builds/*
+!/Builds/Android/
+!/Builds/Android/BlockBlast.apk
